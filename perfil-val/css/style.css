@@ -1,0 +1,30 @@
+head{
+    background-color: yellowgreen;
+}
+body{
+    background-color: violet;
+}
+
+#container-a{
+    background-color: blueviolet;
+}
+#container-b{
+    background-color: rgb(133, 133, 219);
+}
+div{
+    position:relative;
+    justify-content: center;
+    text-align: center;
+}
+#valfoto{
+    text-align: center;
+    border-width: 200px;
+    
+}
+
+#link{
+    text-decoration: solid;
+    color: black;
+    box-shadow: inset;
+
+}
