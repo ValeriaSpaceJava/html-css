@@ -8,25 +8,41 @@
     <style>
         table{
             border-collapse: collapse;
-
+            width: 500px;
+            position: relative;
         }
 
         thead{
             background-color: gray;
             color: white;
-
         }
 
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
         
         tfoot{
             background-color: gray;
             color: white;
+        }
 
+        caption{
+            font-size: 1em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         td , th{
             border: 1px solid black;
             padding: 10px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top:0;
+            background-color: gray;
+
         }
     </style>
 </head>
@@ -42,10 +58,12 @@
         TR, TD, TH        
 -->
     <table>
+        <caption>População das Unidades Federativas</caption>
+
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
 
         </thead>
@@ -66,14 +84,61 @@
                 <td>Minas Gerais</td>
                 <td>17264943 </td>
             </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td> 14016906 </td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td>10444526</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td> 10693929</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td>8796448</td>
+            </tr>
+
+            <tr>
+                <td>Ceará</td>
+                <td>8452381</td>
+            </tr>
+
+            <tr>
+                <td>Pará</td>
+                <td>7581051</td>
+            </tr>
+
+            <tr>
+                <td>Santa Catarina</td>
+                <td>6248436</td>
+            </tr>
+
+            <tr>
+                <td>Goiás</td>
+                <td>6003788</td>
+            </tr>
+
+            <tr>
+                <td>Maranhão</td>
+                <td>6574789</td>
+            </tr>
+
         </tbody>
 
         <tfoot>
-            <th>Total de habitantes</th>
+            <th scope="row">Total de habitantes</th>
             <td>00000000000</td>
 
         </tfoot>
 
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, totam? Mollitia alias sit vitae maiores temporibus et nemo fugit voluptatum pariatur nesciunt tempore, ducimus repellat harum assumenda blanditiis laudantium voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat ex ipsam blanditiis. Quaerat libero, laudantium exercitationem delectus expedita, officia quam harum numquam eaque tenetur aut enim ratione, excepturi quidem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam est a dicta distinctio qui soluta iste aut officia, aliquid ratione mollitia veritatis minus! Voluptate deserunt, iste perspiciatis nemo optio libero! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure corrupti, ullam, consequuntur excepturi fugit odit, earum non asperiores veritatis porro animi cum dolorum harum ratione velit itaque aspernatur! Nisi, dolorem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, nam debitis suscipit numquam necessitatibus molestiae cum atque assumenda omnis sint amet id quae quasi nemo sunt totam voluptate ut quam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, possimus. Quae consequuntur qui magnam doloribus voluptas fugiat accusamus fuga quo tenetur libero hic quas fugit, similique illum dolorum quasi. Reprehenderit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta praesentium illo suscipit, ipsum fugiat reprehenderit, ad voluptatibus cumque necessitatibus incidunt quam aperiam ipsa veniam expedita fuga neque nobis enim laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fugit ullam quasi quibusdam? Minima, adipisci eaque. Tenetur corporis alias id beatae. Laborum, et. Omnis voluptate nihil odio neque vel libero! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, provident alias dolorum fuga rerum exercitationem pariatur corporis. Aliquam modi repellat quaerat reiciendis obcaecati architecto temporibus sapiente, ipsam at asperiores quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laudantium consequuntur repellat ullam fugiat earum exercitationem nemo? Ex impedit excepturi praesentium at nisi eaque iste, dolorum harum esse ratione. Officiis.</p>
 </body>
 </html>
